@@ -9,7 +9,7 @@ public class Fib {
         if(n <= 1){
             return n;
         }
-        return fibFunction(n-1) + fibFunction(n-2);
+        return fibFunction(n-1) + fibFunction(n-2); 
     }
     public static void getFibfunction(){
         for(int i = 0; i < 10; i++){
